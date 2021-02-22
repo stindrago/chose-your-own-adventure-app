@@ -1,17 +1,31 @@
 @import url("https://unpkg.com/wingcss");
 
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .button {
   margin: 4px;
-  width: 15%;
+  width: 30%;
   text-align: center;
 }
 
 .button-single {
   margin: 4px;
-  width: calc(30% + 8px);
+  width: calc(60% + 8px);
   text-align: center;
 }
 
-.dialog {
+dialog {
   width: 100px;
 }
