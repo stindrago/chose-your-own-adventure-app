@@ -31,7 +31,7 @@
            :attraversa-sulle-strisce {:type :skip
                                       :title "Sulle Srisce"
                                       :dialog (str "Barbagianni attraversa le strisce,"
-                                                   " e dopo 50 metri vede la scuola lontanissima."
+                                                   " e dopo 50 metri vide la scuola lontanissima."
                                                    " \"Povero me\", disse Barbagianni.")
                                       :on-continue :in-ritardo-a-scuola}
            :attraversa-sulla-strada {:type :lose
@@ -39,15 +39,15 @@
                                      :dialog (str "\"Bene, ora posso finalmente attraversare non vedo nessuna macchina... Go\", disse Barbagianni."
                                                   " Ma Barbagianni non ha notato che dalla destra sta passando un camion e subito si senti' un bel buum!"
                                                   " Un Barbagianni morto.")}
-           :in-ritardo-a-scuola {:type :contiue
+           :in-ritardo-a-scuola {:type :win
                                  :title "Hai Vinto"
                                  :dialog (str "Barbagianni pensa che sia meglio partire non stare fermi imbambolati."
                                               " Finalmente arrivò all'entrata della scuola ma vide che i bambocci stavano gia uscendo."
                                               " La maestra quando vide Barbagianni gli diede ben 5 note."
                                               " \"Però, dai, facciamolo almeno mangiare\", disse la maestra."
                                               " La maestra e Barbagianni si sedettero e tirarono fuori la merenda,"
-                                              " la maestra a una bella barretta energetica e invece Barbagianni solo l'aria,"
-                                              " poi la maestra lo bocciò."
+                                              " la maestra una bella barretta energetica e invece Barbagianni solo l'aria,"
+                                              " quindi la maestra lo bocciò."
                                               " Dopo... arrivo' un orso e si mangiò entrambi."
                                               " Se pensate che la storia continui, vi sbagliate!"
                                               " (With ❤️ by Isabelle).")}})
