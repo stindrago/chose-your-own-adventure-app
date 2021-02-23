@@ -48,4 +48,6 @@
                                               " La maestra e Barbagianni si sedettero e tirarono fuori la merenda,"
                                               " la maestra a una bella barretta energetica e invece Barbagianni solo l'aria,"
                                               " poi la maestra lo bocciò."
-                                              " Dopo... arrivo' un orso e si mangiò entrambi.")}})
+                                              " Dopo... arrivo' un orso e si mangiò entrambi."
+                                              " Se pensate che la storia continui, vi sbagliate!"
+                                              " (With ❤️ by Isabelle).")}})
