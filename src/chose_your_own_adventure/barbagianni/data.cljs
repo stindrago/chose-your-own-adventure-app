@@ -10,12 +10,12 @@
                                 " (Vuoi andare a comprare il cibo?)")
                    :transitions {"yes" :compro-il-cibo
                                  "no" :soffri-la-fame}}
-           :compro-il-cibo {:type :continue
+           :compro-il-cibo {:type :skip
                             :title "A Fare La Spesa"
                             :dialog (str "\"Hmm... Non so cosa comprare tra queste due cose\", disse Barbagianni indeciso."
                                          " In fine ha deciso prende una buonissima pizza che mangera stasera.")
                             :on-continue :in-viaggio-a-scuola}
-           :soffri-la-fame {:type :continue
+           :soffri-la-fame {:type :skip
                             :title "La Grande Fame"
                             :dialog (str "\"Non mi va di andare al centro commerciale per comprare il cibo"
                                          " anche se ho una grande fame\", disse Barbagianni.")
@@ -28,7 +28,7 @@
                                  " (Vuoi attraversare sulle strisce pedonali?)")
                                  :transitions {"yes" :attraversa-sulle-strisce
                                                "no" :attraversa-sulla-strada}}
-           :attraversa-sulle-strisce {:type :continue
+           :attraversa-sulle-strisce {:type :skip
                                       :title "Sulle Srisce"
                                       :dialog (str "Barbagianni attraversa le strisce,"
                                                    " e dopo 50 metri vede la scuola lontanissima."
