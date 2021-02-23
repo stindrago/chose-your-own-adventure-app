@@ -22,10 +22,10 @@
                             :on-continue :in-viaggio-a-scuola}
            :in-viaggio-a-scuola {:type :continue
                                  :title "In Viaggio a Scuola"
-                                 :dialog "Il giorno dopo dopo Barbagianni va a scuola"
+                                 :dialog (str "Il giorno dopo dopo Barbagianni va a scuola"
                                  " ma deve scegliere se arrivare più in fretta attraversando la strada subito"
                                  " oppure fare altri 50 metri ed attraversare sulle strisce pedonali."
-                                 " (Vuoi attraversare sulle strisce pedonali?)"
+                                 " (Vuoi attraversare sulle strisce pedonali?)")
                                  :transitions {"yes" :attraversa-sulle-strisce
                                                "no" :attraversa-sulla-strada}}
            :attraversa-sulle-strisce {:type :continue
