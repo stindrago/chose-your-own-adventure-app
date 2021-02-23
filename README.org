@@ -6,7 +6,7 @@
 
 Chose your own adventure is a game based on the epic genere of the same name. Make choices based on what you think is right and win, but stay focused or you will end up restarting from scratch.
 
-** [[http://demo.stindrago.com/chose-your-own-adventure-game][Demo]]
+** [[http://demo.stindrago.com/chose-your-own-adventure-app][Demo]]
 
 ** Stack 
 
