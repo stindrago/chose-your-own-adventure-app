@@ -1,0 +1,53 @@
+#+title: Chose Your Own Adventure App
+
+[[./resources/img/screenshot.png]]
+
+** Overview
+
+Chose your own adventure is a game based on the epic genere of the same name. Make choices based on what you think is right and win, but stay focused or you will end up restarting from scratch.
+
+** [[http://demo.dragoi.me/chose-your-own-adventure-app][Demo]]
+
+** Stack 
+
+- [[https://clojurescript.org][ClojureScript]]
+- [[https://figwheel.org][figwheel]]
+- [[https://kbrsh.github.io/wing/][Wing CSS]]
+
+** Development
+
+To get an interactive development environment run:
+
+#+begin_src shell
+    clj -A:fig:build
+#+end_src
+
+** Production
+
+To create a production build run:
+
+#+begin_src shell
+    clj -A:fig:min
+#+end_src
+
+or (prefered)
+
+#+begin_src shell
+  clj -A:fig:prod
+#+end_src
+
+In ~index.html~ change
+
+#+begin_src html
+<script src="cljs-out/dev-main.js" type="text/javascript"></script>
+#+end_src
+
+with
+
+#+begin_src html
+<script src="cljs-out/prod-main.js" type="text/javascript"></script>
+#+end_src
+
+- Notice =prod-main.js=.
+
+** [[./LICENSE][License]]
